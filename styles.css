@@ -1,0 +1,66 @@
+* {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Credit: https://stackoverflow.com/questions/14379788/font-family-not-loading */
+@font-face {
+  font-family: "alex_brushregular";
+  src: url("alexbrush-regular-otf-webfont.eot");
+  src: url("alexbrush-regular-otf-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("alexbrush-regular-otf-webfont.woff") format("woff"),
+    url("alexbrush-regular-otf-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "alex_brushregular", Arial, "sans-serif";
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  position: absolute;
+  max-height: 100vh;
+  width: fit-content;
+  height: fit-content;
+  top: 0;
+  z-index: -10;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.404);
+}
+
+h3,
+p,
+ul,
+ol {
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
+p,
+ul,
+ol {
+  margin: 1rem;
+  margin-left: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin: 1.5rem;
+}
+#back {
+  text-align: center;
+}
